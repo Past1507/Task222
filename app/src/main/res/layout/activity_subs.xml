@@ -1,0 +1,106 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MainActivity">
+
+    <EditText
+        android:id="@+id/inputUserText"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="10dp"
+        android:width="200dp"
+        android:height="50dp"
+        android:background="#00BCD4"
+        android:hint="@string/enterName"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.0"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/userName" />
+
+    <TextView
+        android:id="@+id/userName"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="10dp"
+        android:layout_marginTop="10dp"
+        android:width="200dp"
+        android:height="50dp"
+        android:background="#FFFFFF"
+        android:gravity="center"
+        android:text="@string/username"
+        app:autoSizeTextType="uniform"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <TextView
+        android:id="@+id/emailAddress"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="10dp"
+        android:layout_marginTop="10dp"
+        android:width="200dp"
+        android:height="50dp"
+        android:background="#FFFFFF"
+        android:gravity="center"
+        android:text="@string/email"
+        app:autoSizeTextType="uniform"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/inputUserText" />
+
+    <EditText
+        android:id="@+id/inputEmailText"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="10dp"
+        android:width="200dp"
+        android:height="50dp"
+        android:background="#00BCD4"
+        android:gravity="center_vertical"
+        android:hint="@string/enterEmail"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/emailAddress" />
+
+    <Button
+        android:id="@+id/btnOk"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="10dp"
+        android:width="150dp"
+        android:height="50dp"
+        android:background="#2196F3"
+        android:gravity="center|center_vertical"
+        android:onClick="clickOnBtnOk"
+        android:text="@android:string/ok"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/inputEmailText" />
+
+    <Button
+        android:id="@+id/btnClear"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="10dp"
+        android:width="150dp"
+        android:height="50dp"
+        android:background="#2196F3"
+        android:onClick="clickOnBtnClear"
+        android:text="@string/btnClear"
+        app:layout_constraintEnd_toEndOf="@+id/btnOk"
+        app:layout_constraintTop_toBottomOf="@+id/btnOk" />
+
+    <TextView
+        android:id="@+id/resultText"
+        android:layout_width="300dp"
+        android:layout_height="100dp"
+        android:layout_marginStart="10dp"
+        android:layout_marginTop="10dp"
+        android:layout_marginEnd="10dp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/btnClear" />
+
+</androidx.constraintlayout.widget.ConstraintLayout>

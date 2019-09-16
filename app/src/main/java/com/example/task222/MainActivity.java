@@ -35,6 +35,26 @@ public class MainActivity extends AppCompatActivity {
             Intent intentNotes = new Intent(MainActivity.this, Task221Activity.class);
             startActivity(intentNotes);
         }
+        if (id == R.id.action_open_calendar) {
+            Intent intentNotes = new Intent(MainActivity.this, Task213Activity.class);
+            startActivity(intentNotes);
+        }
+        if (id == R.id.action_open_cities) {
+            Intent intentNotes = new Intent(MainActivity.this, Task212Activity.class);
+            startActivity(intentNotes);
+        }
+        if (id == R.id.action_open_pay) {
+            Intent intentNotes = new Intent(MainActivity.this, Task211Activity.class);
+            startActivity(intentNotes);
+        }
+        if (id == R.id.action_open_subs) {
+            Intent intentNotes = new Intent(MainActivity.this, SubsActivity.class);
+            startActivity(intentNotes);
+        }
+        if (id == R.id.action_open_photo) {
+            Intent intentNotes = new Intent(MainActivity.this, PhotoActivity.class);
+            startActivity(intentNotes);
+        }
         return super.onOptionsItemSelected(item);
     }
 }

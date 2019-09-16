@@ -12,6 +12,36 @@
     <item
         android:id="@+id/action_open_notes"
         android:orderInCategory="100"
-        android:title="Записная книжка"
+        android:title="@string/task221_name"
+        app:showAsAction="never" />
+
+    <item
+        android:id="@+id/action_open_calendar"
+        android:orderInCategory="100"
+        android:title="@string/task213_name"
+        app:showAsAction="never" />
+
+    <item
+        android:id="@+id/action_open_cities"
+        android:orderInCategory="100"
+        android:title="@string/task212_name"
+        app:showAsAction="never" />
+
+    <item
+        android:id="@+id/action_open_pay"
+        android:orderInCategory="100"
+        android:title="@string/task211_name"
+        app:showAsAction="never" />
+
+    <item
+        android:id="@+id/action_open_subs"
+        android:orderInCategory="100"
+        android:title="@string/subs_name"
+        app:showAsAction="never" />
+
+    <item
+        android:id="@+id/action_open_photo"
+        android:orderInCategory="100"
+        android:title="@string/photo_name"
         app:showAsAction="never" />
 </menu>

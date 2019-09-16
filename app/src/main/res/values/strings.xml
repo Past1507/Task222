@@ -4,5 +4,54 @@
     <string name="task221_name">Заметки</string>
     <string name="btnSaveNote">Сохранить</string>
 
+    <string name="task213_name">Сроки задачи</string>
+    <string name="btnStartDate">Дата-время старта задачи:</string>
+    <string name="btnEndDate">Дата-время окончания задачи:</string>
+    <string name="btnOk">OK</string>
 
+    <string name="task212_name">Страны-города-улицы</string>
+    <string name="showAddressBtn">Показать адрес</string>
+    <string-array name="countries">
+        <item>Россия</item>
+        <item>Украина</item>
+        <item>Белоруссия</item>
+    </string-array>
+    <string-array name="r_cities">
+        <item>Москва</item>
+        <item>Санкт-Петербург</item>
+        <item>Казань</item>
+    </string-array>
+    <string-array name="u_cities">
+        <item>Киев</item>
+        <item>Одесса</item>
+        <item>Харьков</item>
+    </string-array>
+    <string-array name="b_cities">
+        <item>Минск</item>
+        <item>Гомель</item>
+        <item>Торжок</item>
+    </string-array>
+
+    <string name="task211_name">Прием оплаты</string>
+    <string name="inputMoneyEdText">Ввод денег</string>
+    <string name="inputInfoEdText">Информация об оплате</string>
+    <string name="btnOkText">OK</string>
+    <string name="bankCardChkBxText">С банковской карты</string>
+    <string name="mobilePhoneChkBxText">С мобильного телефона</string>
+    <string name="cashAddressChkBxText">Наличными по адресу</string>
+    <string name="resultText">Вы выбрали оплатить %1$s р. способом %2$s %3$s</string>
+
+    <string name="subs_name">Подписка</string>
+    <string name="username">Имя пользователя</string>
+    <string name="email">Электронная почта</string>
+    <string name="enterName">Введите имя</string>
+    <string name="enterEmail">Введите электронную почту</string>
+    <string name="btnClear">Очистить</string>
+    <string name="subText">Подписка на рассылку успешно оформлена для пользователя %1$s на электронный адрес %2$s</string>
+
+    <string name="photo_name">Просмотр фото</string>
+    <string name="forward">Вперед</string>
+    <string name="back">Назад</string>
+    <string name="text">https://myfile.org/%1$d</string>
+    <string name="firstText">https://myfile.org/</string>
 </resources>
